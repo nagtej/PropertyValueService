@@ -3,6 +3,8 @@ package com.property;
 public class Address {
 	
 	private String city;
+	private String state;
+	
 	public String getCity() {
 		return city;
 	}
@@ -15,6 +17,5 @@ public class Address {
 	public void setState(String state) {
 		this.state = state;
 	}
-	private String state;
 
 }

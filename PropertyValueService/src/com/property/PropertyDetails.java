@@ -3,6 +3,10 @@ package com.property;
 public class PropertyDetails {
 	
 	private Address address;
+	private String home_id;
+	private String owner;
+	private int value;
+	
 	public Address getAddress() {
 		return address;
 	}
@@ -27,8 +31,5 @@ public class PropertyDetails {
 	public void setValue(int value) {
 		this.value = value;
 	}
-	private String home_id;
-	private String owner;
-	private int value;
 
 }
